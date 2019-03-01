@@ -1,0 +1,29 @@
+body {
+ margin-left: 85px;
+}
+
+.shafa {
+	width: 500px;
+	border: black solid 2px;
+	margin: 10px;
+	padding: 20px;
+	float: left;
+	background: lightgrey;
+
+}
+
+.polka {
+	width: 480px;
+	height: 645px;
+	border: yellow solid 1px;
+	margin: 1px;
+	padding: 3px;
+	float: center;
+	background: white;
+}
+
+img {
+	width: 95px; 
+	height: 140px;
+	border: 1px darkblue solid;
+}
