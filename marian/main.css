@@ -1,0 +1,273 @@
+div {
+	border: 1px rgb(36, 13, 57) solid;
+	padding: 10px;
+	font-family: DejaVu Sans Mono, monospace;
+	color: rgb(36, 13, 57);
+	background: rgb(228, 221, 228);
+}
+
+body {
+	background: rgb(228, 221, 228);
+}
+
+
+.container {
+	width: 95%;
+	border: 0;
+	margin-left: 20px;
+}
+
+.header-2 h1 {
+	margin-top: 0; 
+	margin-bottom: 0; 
+	padding-top: 10px; 
+	font-size: 29px;
+}
+
+.header-2 h1:hover {
+	color: rgb(99, 33, 55);
+}
+
+.navig {
+	flex-direction: row;
+	text-align: center;
+	width: 1200px;
+	display: flex;
+	background: rgb(197, 201, 195);
+}
+
+.navig a {
+	color: rgb(36, 13, 57);
+	font-size: 18px;
+}
+
+.navig_item {
+	border: 0px;
+	background: rgb(197, 201, 195);
+}
+
+.header {
+	flex-direction: row;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	height: 65px;
+	border: 0;
+}
+
+.header-1 {
+	width: 7%;
+	border: 1px;
+}
+
+.header-2 {
+	width: 60%;
+	text-align: center;
+	padding-top: 5px;
+	border: 0
+}
+
+div.header-1 {
+	border: 1px;
+}
+
+.header-3 {
+	width: 25%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background: rgb(214, 188, 200);
+}
+
+.header-1 img {
+	width: 60px;
+	height: 60px;
+}
+
+.header-3 a {
+	color: black;
+	font-size: 15px;
+}
+
+.navig a:hover {
+	color: rgb(99, 33, 55);
+}
+
+.holder-1, .holder-2 {
+	flex-direction: row;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	border: 0;
+	padding-left: 0;
+	padding-right: 0;
+	margin-right: 0;
+	margin-left: 0;
+	padding-top: 30px; 
+	padding-bottom: 20px;
+}
+
+.menu {
+	width: 20%;
+	background: rgb(197, 201, 195);
+	height: 860px;
+}
+
+button {
+	background-color: rgb(228, 221, 228);
+	color: rgb(99, 33, 55);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+}
+
+.content {
+	width: 70%
+}
+
+.menu ul {
+	list-style: none;
+	font-size: 15px;
+	padding-left: 0;
+	margin-left: 23px;
+	text-align: left;
+}
+
+.menu ul li a:hover { 
+	text-decoration: underline; 
+	color: rgb(99, 33, 55);
+}
+
+.content {
+	flex-direction: column;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	background: rgb(214, 188, 200);
+}
+
+.news {
+	height: 860px;
+}
+
+.content div {
+	background: rgb(214, 188, 200);
+	border: 0;
+}
+
+.header {
+	border-bottom: 0;
+}
+
+.information {
+	width: 1200px;
+	background: rgb(214, 188, 200);
+	margin-top: 0;
+}
+
+.news {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.widgets {
+	flex-direction: row;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+.news h1 {
+	font-size: 35px;
+}
+
+.information p {
+	font-size: 15px;
+}
+
+.information h3 {
+	font-size: 25px;
+}
+
+.information h1 {
+	font-size: 35px;
+}
+
+.holder-3 div {
+	background: rgb(214, 188, 200);
+	margin-top: 25px;
+}
+
+.holder-3 {
+	background: rgb(214, 188, 200);
+	text-align: center;
+}
+
+.holder-3 h1 {
+	font-size: 35px;
+}
+
+.parl h1 {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.parl-1 {
+	margin-bottom: 7px;
+	display: flex;
+	flex-direction: row;
+}
+
+.parl-2 {
+	margin-bottom: 7px;
+	display: flex;
+	flex-direction: row;
+}
+
+.parl-3 {
+	display: flex;
+	flex-direction: row;
+}
+
+.parl-1 img, .parl-2 img, .parl-3 img {
+	width: 200px;
+	height: 200px;
+	margin-right: 20px;
+}
+
+.parl-1 img:hover, .parl-2 img:hover, .parl-3 img:hover{
+    width: 250px;
+    height: 250px;
+}
+
+.holder-2 {
+	border: 0px;
+}
+
+.holder-2 h1 {
+	font-size: 35px;
+}
+
+.parl {
+	border: 0;
+	padding-left: 300px;
+}
+
+.parl-1, .parl-2, .parl-3 {
+	flex-direction: row;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+.parl-1, .parl-2, .parl-3 {
+	width: 600px;
+}
+
+.parl p {
+	font-size: 15px;
+}
